@@ -1,0 +1,1 @@
+  * <fg=blue>Run</> doctrine:schema:update --force
