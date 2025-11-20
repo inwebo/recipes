@@ -1,0 +1,36 @@
+{
+  "manifests": {
+    "inwebo/open-resume-bundle": {
+      "manifest": {
+        "bundles": {
+          "Inwebo\\OpenResumeBundle\\InweboOpenResumeBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "src/": "%SRC_DIR%/"
+        }
+      },
+      "files": {
+        "src/Test/Kernel.php": {
+          "contents": [
+            "<?php",
+            "",
+            "namespace App;",
+            "",
+            "use Symfony\\Bundle\\FrameworkBundle\\Kernel\\MicroKernelTrait;",
+            "use Symfony\\Component\\HttpKernel\\Kernel as BaseKernel;",
+            "",
+            "class Kernel extends BaseKernel",
+            "{",
+            "    use MicroKernelTrait;",
+            "}",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "7cfbe233d9beabc6367fd90d7f9fa5d59042d1c3"
+    }
+  }
+}

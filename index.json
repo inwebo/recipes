@@ -1,0 +1,15 @@
+{
+  "recipes": {
+    "inwebo/open-resume-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "master",
+  "is_contrib": false,
+  "_links": {
+    "repository": "github.com/inwebo/recipes",
+    "origin_template": "{package}:{version}@github.com/inwebo/recipes:master",
+    "recipe_template": "https://api.github.com/repos/inwebo/recipes/contents/{package_dotted}.{version}.json?ref=flex/main",
+    "recipe_template_relative": "{package_dotted}.{version}.json"
+  }
+}
